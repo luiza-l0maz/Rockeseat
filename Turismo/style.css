@@ -1,6 +1,7 @@
-root{
+:root{
     font-family: "Open Sans", sans-serif;
     color: #1B1B1B;
+    
 }
 
 
@@ -10,14 +11,35 @@ img{
     width: 100%;
     top:2px;
 }
+
 body{
     background-color: #F5F4F0 ;
     font-family: Arial, sans-serif;
-} 
-p{
-    font-size: 16px;
+}
+
+
+#sua-proxima-viagem{font-family: "Open Sans", sans-serif;
+    font-size: 20px;
     line-height: 1.5;
     color: #1b1b1b;
+    font-weight: bold, italic;
+
+   
+}
+section+ p{
+    margin-top: 20px;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold, italic;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1b1b1b;
+    font-weight: bold, italic;
 }
 
 h3{color: #e1624f;
@@ -28,7 +50,8 @@ h1{color: #1B1B1B;
     font-size: 36px;
     font-weight: bold;
 }
-main{padding: 20px;
+
+main{padding: 16px;
 }
 
 h2{
@@ -36,14 +59,44 @@ h2{
     font-weight: bold;
     color:#696969;
 }
+h1,h3{line-height: 10px;
+}
+h3,h2{line-height: 20px;
+}
 
-ul+li{
+h4{
+    font-size: 28px;
+    font-weight: bold;
+    color:#696969;
+}
+
+section+section{
+    margin-top: 20px;
+    line-height: 20px
+
+}
+s
+ul{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1b1b1b;
+    font-weight: bold;
+    margin-top: 10px;
+}
+ol{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #1b1b1b;
     font-weight: bold;
     margin-top: 10px;
+}
+li{ font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #1b1b1b;
+    font-weight: bold italic;
 }
 .divider {
   width: 100%;
@@ -53,8 +106,10 @@ ul+li{
 }
 
 footer{
-    background-color:#D9D9D9
+    background-color:#D9D9D9;
+    padding: 20px;
+    margin: 20px; 
     text-align: center;
-    line-height: 150%;
+    margin-bottom: 48px;
 
 }
