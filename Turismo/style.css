@@ -18,7 +18,8 @@ body{
 }
 
 
-#sua-proxima-viagem{font-family: "Open Sans", sans-serif;
+section {
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     line-height: 1.5;
     color: #1b1b1b;
@@ -26,12 +27,10 @@ body{
 
    
 }
-section+ p{
+
+section + p {
     margin-top: 20px;
     line-height: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    font-weight: bold, italic;
 }
 
 p{
@@ -39,7 +38,6 @@ p{
     font-size: 20px;
     line-height: 1.5;
     color: #1b1b1b;
-    font-weight: bold, italic;
 }
 
 h3{color: #e1624f;
@@ -75,7 +73,6 @@ section+section{
     line-height: 20px
 
 }
-s
 ul{
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
@@ -96,7 +93,6 @@ li{ font-family: "Open Sans", sans-serif;
     font-size: 22px;
     line-height: 1.5;
     color: #1b1b1b;
-    font-weight: bold italic;
 }
 .divider {
   width: 100%;
